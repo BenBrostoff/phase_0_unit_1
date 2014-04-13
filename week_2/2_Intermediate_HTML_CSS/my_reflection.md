@@ -2,7 +2,7 @@
 
 * What do you think about web standards? Are they good or bad?
 
-I'm a believer in the adage that discipline begets creativity, and in this respect I think web standards are good. They give people a standard framework to work with and no one is obligated to follow them to the letter (to be honest, I'm not sure I know exactly what 'web standards' mean but presumably this refers to things like the structure / styles proposed by reset.css and the HTML 5 framework. All web pages clearly do not look the same, so standards do not appear to be dampening creativity. 
+I'm a believer in the adage that discipline begets creativity, and in this respect I think web standards are good. They give people a standard framework to work with and no one is obligated to follow them to the letter (to be honest, I'm not sure I know exactly what 'web standards' mean but presumably this refers to things like the structure / styles proposed by reset.css and the HTML 5 framework). All web pages clearly do not look the same, so standards do not appear to be dampening creativity. 
 
 * Does the standard structure make sense to you? Why or why not?
 
