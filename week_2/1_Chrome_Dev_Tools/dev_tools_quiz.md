@@ -1,4 +1,3 @@
-
 QUIZ
  
 My screenshot from my codeschool profile is linked to my Github  page. 
@@ -25,7 +24,7 @@ Go to http://www.postmachina.com/ and analyze and tweak this nicely designed pag
  
 What is the current background color for the page? (Surprisingly, it's not just black!)
  
-#0b0f11 is indeed not blac and is R: 11, G: 15, B: 17.
+Yes, #0b0f11 is indeed not blac and is R: 11, G: 15, B: 17.
  
 Tweak the background color to white.
  
