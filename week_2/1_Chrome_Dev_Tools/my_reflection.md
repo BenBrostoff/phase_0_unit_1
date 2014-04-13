@@ -2,8 +2,13 @@
 
 * Describe the Document Object Model? What about it makes sense to you? What doesn't? What seems good and bad about it?
 
-The DOM serves as...
+The DOM serves as a "object-oriented representation of a web page" (via the Mozilla foundation), wherein nearly everything is an object. The DOM represents web pages, which are documents. The DOM is the medium by which information in the document is displayed, stored and manipulated. 
 
+Importantly, the DOM is not a programming language, but is the medium by which programming languages like Javascript interact with elements in the web page. The Mozilla Foundation notes that many programming languages go through the DOM, and that API (web or XML Page) = DOM + JS (scripting language). 
+
+I suppose at a high level I understand that web pages are made accessible to scripts through the DOM, and every browser relies on the DOM to "translate" web pages. Events, properties and methods flow through the foundation the DOM has created and make these "work" on your browser.
+
+What I don't quite understand is how and why different browers are "good" and "bad". For instance, I know some browsers cannot display HTML5 in its expected form. Why is this true and what does this have to do with the DOM? It seems as though the DOM is always changing, and I wonder how browsers "keep up". 
 
 * How did using Chrome Web Tools to look at your site and a wordpress.com site compare?
 
