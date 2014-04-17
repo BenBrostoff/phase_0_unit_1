@@ -1,20 +1,27 @@
-// I paired [by myself, with:] on this challenge.
+// I paired by myself on this challenge.
 
 
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
+// set secretNumber equal to number
+// set password equal to string
+// set allowedIn equal to Boolean
+// set allowedIn equal to false
+// set members equal to array
+// set the first element equal to John
+// set the fourth element equal to Mary
 
 
 // __________________________________________
 // Write your code below.
 
-
-
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = new Array();
+members[0] = "John";
+members[3] = "Mary";
 
 
 
@@ -22,15 +29,21 @@
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
 
+var secretNumber = 7;
+var password = "just open the door";
+var allowedIn = false;
+var members = ["John","X","Y","Mary"];
+
+
 
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
-// 
-// 
-// 
+// The only change I made in my refactoring was to condense the three lines used to work the array criteria into one line. I used literal array notation as opposed to regular.
+// It seems to me that the three other variables must be specified as separate lines of code, but I could be in error here.
+// I will note that I tested my code in CodeAcademy as opposed to some other environment (such as the terminal).
 // 
 // 
 // 
