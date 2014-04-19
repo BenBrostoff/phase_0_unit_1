@@ -31,7 +31,7 @@ members[3] = "Mary";
 
 var secretNumber = 7;
 var password = "just open the door";
-var allowedIn = false;
+var allowedIn = true;
 var members = ["John","X","Y","Mary"];
 
 
@@ -44,9 +44,9 @@ var members = ["John","X","Y","Mary"];
 // The only change I made in my refactoring was to condense the three lines used to work the array criteria into one line. I used literal array notation as opposed to regular.
 // It seems to me that the three other variables must be specified as separate lines of code, but I could be in error here.
 // I will note that I tested my code in CodeAcademy as opposed to some other environment (such as the terminal).
-// 
-// 
-// 
+// When I ran in the terminal, it did output nine trues (after I had used CodeAcademy for error testing).
+// I tried purposely changing allowedIn to true to see the change in the terminal.
+// The error does indeed read "the value of allowedIn should be false" - I just think codeAcademy is cleaner.
 
 
 // __________________________________________

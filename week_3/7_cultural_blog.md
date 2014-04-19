@@ -29,5 +29,7 @@ do to improve next time you pair?
 - What was most difficult for you when writing feedback for your pair?
 
 Overall, what do you think of using pairing and feedback to guide your learning?
+I enjoy pairing because it's an intellectual exercise that in many respects involves emotionally connecting with people.
+
 
 *Remember, there is no minimum length, but write this for an audience.* 
