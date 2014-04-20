@@ -1,4 +1,4 @@
-// I worked [by myself, with:] on this challenge
+// I worked with Osama and Phillip on this challenge.
 
 // Your mission description:
 // The ogres have declared an ultimatum to Thorin and his son Thorin Jr. 
@@ -78,9 +78,25 @@ var applesuccesszone {
 
 
 function attackXY(x,y){} // unsure on this part
-function thorinjrdeath {} // unsure on this part
-function ogrelaughing {} // unsure on this part
+function deathanimation {} // unsure on this part
+function laughing {} // unsure on this part
 
+
+if (X >= 95 && X <= 105 && Y >= 61 && Y <= 71) 
+{
+console.log("Mission success!") 
+}
+
+else if (X >= 90 && X <= 110 && Y >= 40 && Y <= 60) 
+{
+console.log("Mission failure!")
+thorinjr.deathanimation();
+}
+
+
+else
+ogre.laughanimation();
+};
 
 
 
@@ -94,7 +110,7 @@ function ogrelaughing {} // unsure on this part
 
 // Reflection
 // I must admit that the scope of this mission was a bit beyond my knowledge of Javascript.
-// 
+// I specifically struggled with the danger zones and how to write the if statements specifying that if an area hit a certain zone to do certain commands.
 // 
 // 
 // 
