@@ -101,19 +101,38 @@ ogre.laughanimation();
 
 
 // Refactored Code
-//We could use a DrawRectangle function here
+//Phillip suggested we modify the attackXY function to make condition
 
+function attackXY() {
+if (X >= 95 && X <= 105 && Y >= 61 && Y <= 71) 
+{
+attackanimation(); // presumably we would inherit from Code Combat
+console.log("Mission success!") 
+}
+
+else if (X >= 90 && X <= 110 && Y >= 40 && Y <= 60) 
+{
+attackanimation(); // presumably we would inherit from Code Combat
+console.log("Mission failure!")
+thorinjr.deathanimation();
+}
+
+else{
+attackanimation(); // presumably we would inherit from Code Combat
+ogre.laughanimation();
+}
+}
 }
 
 
 
 
 // Reflection
-// I must admit that the scope of this mission was a bit beyond my knowledge of Javascript.
+// I must admit that the scope of this mission was a bit beyond my knowledge of JavaScript.
 // I specifically struggled with the danger zones and how to write the if statements specifying that if an area hit a certain zone to do certain commands.
-// 
-// 
-// 
-// 
+// Osama and Phillip both assisted a lot here; Osama made good comments on how to write the condition.
+// Phillip suggested we change the attackXY function so different things happened in different conditions.
+// In all scenarios, one would see the arrow animation (which I assume we could inherit from another class).
+// I refactored the code based on Phillip's suggestion. 
 // 
 // 

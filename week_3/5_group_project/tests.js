@@ -1,9 +1,40 @@
+function sum (array){
+    var rsum = 0;
+    for (i = 0; i < array.length; i++)
+    rsum = rsum + array[i];
+    total = rsum;
+    return total;
+};
+
+  function mean (array){
+    var rsum = 0;
+    for (i = 0; i < array.length; i++)
+    rsum = rsum + array[i];
+    total = rsum;
+    return total / array.length;
+};
+
+  function median (array){
+    if (array.length % 2 === 0) 
+    { 
+      return (array[(array.length / 2) - 1] + array[array.length/2]) / 2;
+  }
+  else { 
+      return array[Math.floor(array.length/2)];
+  }
+
+};
+
+
+
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
 
 oddLengthArray  = [1, 2, 3, 4, 5, 5, 7]
 evenLengthArray = [4, 4, 5, 5, 6, 6, 6, 7]
+
+
 
 
 function assert(test, message, test_number) {
