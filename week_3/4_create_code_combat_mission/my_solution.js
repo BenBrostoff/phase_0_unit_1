@@ -135,4 +135,6 @@ ogre.laughanimation();
 // In all scenarios, one would see the arrow animation (which I assume we could inherit from another class).
 // I refactored the code based on Phillip's suggestion. 
 // 
-// 
+// I reviewed Armen's code here and commented on his Github. Interesting, Armen approached the challenge differently than I did.
+// Armen focused more on solving his mission from a user perspective, whereas I focused on designing the level.
+// I think both focuses are important and find it intriguing we interpreted the assignment so differently.
