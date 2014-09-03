@@ -1,1 +1,44 @@
-/* include your css here */
+#banner {
+  width: 100%;
+  height: 50px;
+  border: solid;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 5px;
+}
+
+.container {
+  width: 85%;
+  height: 650px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;   
+  border-style: solid;
+  border-color: red;
+}
+
+#name_1, #name_2 {
+  display: inline-block;
+  font-family: 'Georgia';
+}
+
+#name_1 {
+  float: left;
+  margin-left: 125px;
+}
+
+#name_2 {
+  float: right;
+  margin-right: 125px;
+}
+
+#article {
+  display: block;
+  clear: left;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
