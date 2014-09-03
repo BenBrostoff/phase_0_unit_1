@@ -1,0 +1,31 @@
+.container {
+  width: 85%;
+  margin-right: 7.5%;
+  margin-left: 7.5%;  
+}
+
+#boxes {
+  border: solid 4px;
+  text-align: center;
+  margin-top: 30px; 
+}
+
+#words {
+  margin-left: 30px;
+  margin-right: 30px;
+
+  font-family: 'Playfair Display', serif;
+}
+
+
+img {
+  height: 100px;
+  width: 200px;
+  border: solid;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+
+}
